@@ -2,7 +2,7 @@ param (
     [string[]]$Places = @('River Forest, IL'),
     [string]$GoogleMapsApiKey = $env:GOOGLE_MAPS_API_KEY,
     [string]$GeonamesUsername = $env:GEONAMES_USERNAME,
-    [int]$MaxDrivingTime = 30,
+    [double]$MaxDrivingTime = 30,
     [string]$OutputFile = 'output.csv'
 )
 
